@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int n,m;
+	cin >> n >> m;
+	for(int i=1;i<=n;i++){
+		int cnt=m;
+		for(int j=1;j<=cnt;j++){
+		   if(j<i){
+		   cout << "~";
+		   cnt++;
+	}else{
+		if(i==n || i==1 || j==cnt-m+1 || j==cnt)
+		   cout << "*";
+		   else cout << ".";
+	}
+		}
+		cout << "\n";
+	}
+}

@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+int main(){
+      int n;
+      cin >> n;
+      for(int i=1;i<=ni++){
+      	for(int j=n;j>=i;j--){
+      		if(i==1 || i==n || j==n || j==i)
+              cout << "*";
+			  else cout << ".";    	
+	       }
+	       cout << "\n";
+	  }
+
+}
+
+
+#include <iostream>
+using namespace std;
+int main(){
+	int n;
+	cin >> n;
+	for(int i=1;i<=n;i++){
+		int cnt=0;
+		for(int j=1;j<=n;j++){
+			if(j<i){
+			cout << " ";
+			cnt++;
+		}
+			else{  
+			if( i==1 || j==cnt+1 || j==n)
+			cout << "*";
+			else cout << " ";
+		}
+	}
+		cout << "\n";
+	}
+}

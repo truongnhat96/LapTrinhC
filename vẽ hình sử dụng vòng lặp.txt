@@ -1,0 +1,5 @@
+Xác định xem hình đó:
++) Có bao nhiêu dòng  ?
++) Mỗi dòng có bao nhiêu cột, ký tự
++) Ký tự, số chữ nó in ra là gì?
+-> Từ đó tìm ra quy luật 
