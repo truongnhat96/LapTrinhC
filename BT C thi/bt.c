@@ -56,8 +56,4 @@ int main(){
 	}
 	printf("\n");
 	printf("tong cac so chan la: %d",sum);
-	
-
 }
-		  
-	
